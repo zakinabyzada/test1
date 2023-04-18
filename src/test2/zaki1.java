@@ -10,5 +10,17 @@ public class zaki1 {
 		System.out.println("age = 21");
 	}
 	
+	// method 3rd 
+	public static boolean isValid (int age ) {
+		boolean result = false;
+			
+			if (age < 18 ) {
+				result = false;
+			} else {
+				result = true;
+			}
+			System.out.println(result);
 	
+		return result ;
+	}
 }
